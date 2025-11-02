@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Narsoji Chicken Shop</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <div class="logo">Narsoji Chicken Shop</div>
+
+    <!-- Burger Box -->
+    <div class="burger-box">
+      <div class="burger" id="burger" onclick="toggleMenu()">
+        <div class="line1"></div>
+        <div class="line2"></div>
+        <div class="line3"></div>
+      </div>
+
+      <!-- Dropdown Menu Box -->
+      <ul class="menu-box" id="menu-box">
+        <li><a href="#hero">Home</a></li>
+        <li><a href="https://www.google.com/search?q=nizamabad+suguna+chicken+paper+rate+today&oq=&gs_lcrp=EgZjaHJvbWUqCQgAECMYJxjqAjIJCAAQIxgnGOoCMgkIARAjGCcY6gIyDwgCEC4YJxjHARjqAhjRAzIJCAMQIxgnGOoCMgkIBBAuGCcY6gIyCQgFECMYJxjqAjIJCAYQIxgnGOoCMgkIBxAjGCcY6gIyCQgIECMYJxjqAjIJCAkQIxgnGOoCMgkIChAjGCcY6gIyCQgLECMYJxjqAjIJCAwQIxgnGOoCMgkIDRAjGCcY6gIyCQgOECMYJxjqAjIRCA8QABgDGEIYjwEYtAIY6gIyEQgQEAAYAxhCGI8BGLQCGOoCMhEIERAAGAMYQhiPARi0AhjqAjIRCBIQABgDGEIYjwEYtAIY6gIyEQgTEAAYAxhCGI8BGLQCGOoC0gEGLTFqMGo3qAIUsAIB&client=ms-android-vivo-terr1-rso2&sourceid=chrome-mobile&ie=UTF-8&chrome_dse_attribution=1">Paper Price</a></li>
+        <li><a href="#products">Products</a></li>
+        <li><a href="https://www.instagram.com/naresh____088?igsh=czNuN2lsMHQ3YXB3">Instagram</a></li>
+        <li><a href="#address">Contact</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <section class="hero" id="hero">
+    <h1>Welcome to Narsoji Chicken Shop</h1>
+    <button onclick="window.location.href='https://nareshchickenshop.github.io/Order-form-/'">Order Now</button>
+  </section>
+
+  <section class="about" id="about">
+    <h2>About Our Products</h2>
+    <div class="about-boxes">
+      <div class="about-box">Chicken with skin</div>
+      <div class="about-box">Skinless chicken</div>
+      <div class="about-box">Live bird</div>
+      <div class="about-box">Desi chicken</div>
+      <div class="about-box">Mutton</div>
+      <div class="about-box">Desi goat</div>
+    </div>
+  </section>
+
+  <section class="products" id="products">
+    <h2>Our Fresh Products</h2>
+    <div class="product-grid">
+      <div class="product">
+        <img src="Images/Whole-Chicken.jpg" alt="Chicken with skin">
+        <p>Chicken with skin</p>
+      </div>
+      <div class="product">
+        <img src="Images/Chicken-Breast-Boneless.jpg" alt="Skinless chicken">
+        <p>Skinless chicken</p>
+      </div>
+      <div class="product">
+        <img src="Images/0.11853200_1630071916_0.jpg" alt="Live bird">
+        <p>Live bird</p>
+      </div>
+      <div class="product">
+        <img src="Images/live-brown-country-chicken-155.jpg" alt="Desi chicken">
+        <p>Desi chicken</p>
+      </div>
+      <div class="product">
+        <img src="Images/Mutton-Curry-Cut-Kochi-Patha-Meat-Copy.jpg" alt="Mutton">
+        <p>Mutton</p>
+      </div>
+      <div class="product">
+        <img src="Images/unnati-goat-farm-waluj-midc-aurangabad-maharashtra-goat-farming-s486if6o38.jpg" alt="Desi goat">
+        <p>Desi goat</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="shopinfo" id="shopinfo">
+    <h2>About Narsoji Chicken Shop</h2>
+    <div class="shop-box">
+      <p>
+        At <strong>Narsoji Chicken Shop</strong>, we provide <span>fresh, hygienic, and high-quality meat</span> 
+        every day. All products are handled safely to ensure cleanliness and unbeatable taste for our valued customers.
+      </p>
+      <button onclick="document.querySelector('#address').scrollIntoView({behavior:'smooth'})">Visit Us</button>
+    </div>
+  </section>
+
+  <section class="address" id="address">
+    <h2>Our Address</h2>
+    <p><strong>Location:</strong> Marri galli, Village Bada Bheemgal</p>
+    <p><strong>Mobile:</strong> 8096191667, 9603641667</p>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Narsoji Chicken Shop | All Rights Reserved</p>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
